@@ -41,6 +41,5 @@ func (u *Generator) Generate() int64 {
 func (u *Generator) GenerateFormatted() string {
 	randString := fmt.Sprintf("%16d", u.Generate())
 
-	fmt.Println(randString)
 	return randString[:4] + "-" + randString[4:8] + "-" + randString[8:12] + "-" + randString[12:16]
 }
