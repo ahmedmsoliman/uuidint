@@ -1,4 +1,6 @@
 # uuid-int
+[![Go Report Card](https://goreportcard.com/badge/github.com/ahmedmsoliman/uuidint)](https://goreportcard.com/report/github.com/ahmedmsoliman/uuidint)
+
 a go version for uuid int generator node package
 https://www.npmjs.com/package/uuid-int
 
