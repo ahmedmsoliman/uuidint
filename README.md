@@ -15,14 +15,36 @@ go get github.com/ahmedmsoliman/uuidint
 
 to generate a new random number combination
 ```golang
-x := uuidint.New()
-fmt.Println(x.Generate())
+package main
+
+import (
+	"fmt"
+
+	"github.com/ahmedmsoliman/uuidint"
+)
+
+func main() {
+	x := uuidint.New()
+	fmt.Println(x.Generate())
+}
+
 // that will result in an int64 number like 3383594288435200
 ```
 
 or used the formatted version to get a string result of the same number formatted as `xxxx-xxxx-xxxx-xxxx`
 ```golang
-x := uuidint.New()
-fmt.Println(x.GenerateFormatted())
+package main
+
+import (
+	"fmt"
+
+	"github.com/ahmedmsoliman/uuidint"
+)
+
+func main() {
+	x := uuidint.New()
+	fmt.Println(x.GenerateFormatted())
+}
+
 // that will result in something like 3383-5943-1569-8176
 ```
